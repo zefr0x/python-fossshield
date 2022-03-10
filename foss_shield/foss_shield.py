@@ -130,7 +130,7 @@ _ALLOWED_PLATFORMS = ["Linux"]
 
 def run() -> None:
     """Run the proprietary software detector."""
-    if __import__("platform").system() in _ALLOWED_PLATFORMS:
+    if __import__("platform").system() not in _ALLOWED_PLATFORMS:
         for _function in _functions:
             # When a message is displayed the loop will break.
             if _function():
