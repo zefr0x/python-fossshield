@@ -1,3 +1,5 @@
+> **Warning** : This repository/project is no longer maintained. If you are interested, it's free software under the GPL-3.0 license.
+
 # FOSS-Shield
 A Python module to display an error message and exit if it was running via proprietary operating system.
 
